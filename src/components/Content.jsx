@@ -22,9 +22,11 @@ function Content() {
       {count}
       <button onClick={increment}>+</button>
       <hr />
+      <ol>
       {products.map((product) => (
         <li>{product.name}</li>
       ))}
+      </ol>
     </div>
   );
 }
